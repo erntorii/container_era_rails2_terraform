@@ -1,0 +1,8 @@
+{
+  "containerOverrides": [
+    {
+      "name": "rails2-webapp",
+      "command": ["bundle", "exec", "rails", "db:create", "db:migrate"]
+    }
+  ]
+}
